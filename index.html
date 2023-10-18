@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link href="css/styles.css" rel="stylesheet">
   <script src="js/scripts.js"></script>
@@ -7,10 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
   <h1>Political Meter</h1>
   <h2>Please fill out the form</h2>
-  <form>
+  <form id="f">
     <h3>Question 1</h3>
     <label for="l1">Liberal</label>
     <input id="l1" type="radio" name="l1">
@@ -20,8 +22,7 @@
     <br>
     <label for="c1">Conservative</label>
     <input id="c1" type="radio" name="c1">
-  </form>
-  <form>
+    <br>
     <h3>Question 1</h3>
     <label for="l2">Liberal</label>
     <input id="l2" type="radio" name="l2">
@@ -31,8 +32,7 @@
     <br>
     <label for="c2">Conservative</label>
     <input id="c2" type="radio" name="c2">
-  </form>
-  <form>
+    <br>
     <h3>Question 1</h3>
     <label for="l3">Liberal</label>
     <input id="l3" type="radio" name="l3">
@@ -42,6 +42,9 @@
     <br>
     <label for="c3">Conservative</label>
     <input id="c3" type="radio" name="c3">
+    <br>
+    <br>
+    <button type="submit">Confirm</button>
   </form>
 
   <div id="l" class="hidden">
@@ -54,4 +57,5 @@
     <h1>You are a conservative</h1>
   </div>
 </body>
+
 </html>
